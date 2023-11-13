@@ -13,7 +13,8 @@ export class MascotaService {
 // 2 otra para reutilizacion de codigo
 // 3 comunicacion entre componentes
  private myAppUrl: string = environment.urlApi;
- private myApiUrl: string = 'api/Mascota/';
+ private myApiUrl: string = 'api/comunicador/'; // esta es la nueva
+ private myApiUrl1: string = 'api/mascota/'; // esta era la anterior
   constructor( private http:HttpClient) { }
 
   // esta funcion es para obtener todos las mascotas de la base de datos

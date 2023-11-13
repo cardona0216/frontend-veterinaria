@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  urlApi: 'https://localhost:7083/'
+  urlApi: 'https://localhost:7208/', //y esta es la api que esta llamando a la anteriior
+  urlApi2: 'https://localhost:7083/' // esta es la ruta de la api anterior
 };
 
 /*
